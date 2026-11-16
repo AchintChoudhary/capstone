@@ -1,14 +1,17 @@
 package com.capstone.scheduler.algorithms;
 
-import com.capstone.scheduler.dsa.TaskGraph;
-import org.junit.jupiter.api.Test;
-
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.jupiter.api.Test;
+
+import com.capstone.scheduler.dsa.TaskGraph;
 
 public class AlgorithmTests {
-
+   
     @Test
     public void testKmpSearch() {
         String text = "We are developing a Smart Task Scheduler project using Spring Boot.";
